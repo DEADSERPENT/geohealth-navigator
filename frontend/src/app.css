@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.facility-search {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.facility-search input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 6px;
+}
+
+.facility-search button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.facility-search button:hover {
+  background-color: #0056b3;
+}
+
+/* Marker styling for Mapbox */
+.marker {
+  display: block;
+}
