@@ -17,3 +17,7 @@ backend/.env
 # Log files
 npm-debug.log*
 yarn-error.log*
+
+# packages 
+frontend/packages-lock.json
+backend/packages-lock.json
